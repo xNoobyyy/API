@@ -13,10 +13,10 @@ group = "de.noob.seinna.api"
 version = "0.1-Alpha"
 
 repositories {
+    mavenLocal()
     mavenCentral()
     maven("https://repo.cloudnetservice.eu/repository/releases/")
     maven("https://jitpack.io")
-    mavenLocal()
 }
 
 dependencies {
