@@ -8,8 +8,8 @@ plugins {
     id("maven-publish")
 }
 
-group = "com.github.SeinnaNetwork"
-version = "master-SNAPSHOT"
+group = "net.playseinna.api"
+version = "0.1"
 
 repositories {
     mavenCentral()
@@ -34,16 +34,6 @@ dependencies {
     implementation("commons-io:commons-io:2.11.0")
     implementation("com.github.juliarn:npc-lib:development-SNAPSHOT")
     implementation("commons-io:commons-io:2.11.0")
-}
-
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId = "com.github.SeinnaNetwork"
-            artifactId = "SeinnaAPI"
-            version = "master-SNAPSHOT"
-        }
-    }
 }
 
 tasks.test {
