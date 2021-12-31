@@ -21,7 +21,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
-    compileOnly(files("libs/spigot-1.18.1-R0.1-SNAPSHOT.jar"))
+    compileOnly("org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT")
     implementation("de.dytanic.cloudnet:cloudnet-driver:3.4.1-RELEASE")
     implementation("de.dytanic.cloudnet:cloudnet-wrapper-jvm:3.4.1-RELEASE")
     implementation("de.dytanic.cloudnet:cloudnet-bridge:3.4.1-RELEASE")
