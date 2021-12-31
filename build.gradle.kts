@@ -45,6 +45,10 @@ tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
 }
 
+application {
+    mainClass.set("de.noob.seinna.api.SeinnaAPIKt")
+}
+
 tasks.named<ShadowJar>("shadowJar") {
     archiveBaseName.set("SeinnaAPI")
     archiveClassifier.set("")
