@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>com.github.SeinnaNetwork</groupId>
-  <artifactId>SeinnaAPI</artifactId>
+  <groupId>net.playseinna.api</groupId>
+  <artifactId>API</artifactId>
   <versioning>
-    <latest>master-SNAPSHOT</latest>
+    <latest>0.1</latest>
+    <release>0.1</release>
     <versions>
-      <version>master-SNAPSHOT</version>
+      <version>0.1</version>
     </versions>
-    <lastUpdated>20211231174940</lastUpdated>
+    <lastUpdated>20211231193151</lastUpdated>
   </versioning>
 </metadata>

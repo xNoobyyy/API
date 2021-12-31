@@ -1,0 +1,156 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.playseinna.api",
+    "module": "API",
+    "version": "0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "API-0.1.jar",
+          "url": "API-0.1.jar",
+          "size": 13430422,
+          "sha512": "ae0db8aff86ca5feed8cc11e8a993a7059ba079113c76cfad164c96a1e97cf6dd93afa519020f46a79343d855bbf5fcd53a0b3c81fe7fb7e1984f2ffc8262a47",
+          "sha256": "71127b80c47f85eaf32b36656bdea4c00c63d9b4c36253bbadd0919b464fce18",
+          "sha1": "6ae803b738e30f7f8d850b7a5a628dc7d363c6d8",
+          "md5": "527e5746d41cd695ce4791f5f9f086ac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 16,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.6.10"
+          }
+        },
+        {
+          "group": "de.dytanic.cloudnet",
+          "module": "cloudnet-driver",
+          "version": {
+            "requires": "3.4.1-RELEASE"
+          }
+        },
+        {
+          "group": "de.dytanic.cloudnet",
+          "module": "cloudnet-wrapper-jvm",
+          "version": {
+            "requires": "3.4.1-RELEASE"
+          }
+        },
+        {
+          "group": "de.dytanic.cloudnet",
+          "module": "cloudnet-bridge",
+          "version": {
+            "requires": "3.4.1-RELEASE"
+          }
+        },
+        {
+          "group": "de.dytanic.cloudnet",
+          "module": "cloudnet-cloudperms",
+          "version": {
+            "requires": "3.4.1-RELEASE"
+          }
+        },
+        {
+          "group": "de.dytanic.cloudnet",
+          "module": "cloudnet-signs",
+          "version": {
+            "requires": "3.4.1-RELEASE"
+          }
+        },
+        {
+          "group": "de.dytanic.cloudnet",
+          "module": "cloudnet-npcs",
+          "version": {
+            "requires": "3.4.1-RELEASE"
+          }
+        },
+        {
+          "group": "org.mongodb",
+          "module": "mongo-java-driver",
+          "version": {
+            "requires": "3.12.10"
+          }
+        },
+        {
+          "group": "commons-io",
+          "module": "commons-io",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.github.juliarn",
+          "module": "npc-lib",
+          "version": {
+            "requires": "development-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "API-0.1.jar",
+          "url": "API-0.1.jar",
+          "size": 13430422,
+          "sha512": "ae0db8aff86ca5feed8cc11e8a993a7059ba079113c76cfad164c96a1e97cf6dd93afa519020f46a79343d855bbf5fcd53a0b3c81fe7fb7e1984f2ffc8262a47",
+          "sha256": "71127b80c47f85eaf32b36656bdea4c00c63d9b4c36253bbadd0919b464fce18",
+          "sha1": "6ae803b738e30f7f8d850b7a5a628dc7d363c6d8",
+          "md5": "527e5746d41cd695ce4791f5f9f086ac"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "API-0.1-all.jar",
+          "url": "API-0.1-all.jar",
+          "size": 13430422,
+          "sha512": "ae0db8aff86ca5feed8cc11e8a993a7059ba079113c76cfad164c96a1e97cf6dd93afa519020f46a79343d855bbf5fcd53a0b3c81fe7fb7e1984f2ffc8262a47",
+          "sha256": "71127b80c47f85eaf32b36656bdea4c00c63d9b4c36253bbadd0919b464fce18",
+          "sha1": "6ae803b738e30f7f8d850b7a5a628dc7d363c6d8",
+          "md5": "527e5746d41cd695ce4791f5f9f086ac"
+        }
+      ]
+    }
+  ]
+}
