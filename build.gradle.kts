@@ -6,7 +6,6 @@ plugins {
     id("com.github.johnrengelman.shadow") version "7.1.0"
     id("java")
     id("maven-publish")
-    application
 }
 
 group = "com.github.SeinnaNetwork"
@@ -43,10 +42,6 @@ tasks.test {
 
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
-}
-
-application {
-    mainClass.set("de.noob.seinna.api.SeinnaAPIKt")
 }
 
 tasks.named<ShadowJar>("shadowJar") {
