@@ -8,7 +8,7 @@ import de.dytanic.cloudnet.ext.bridge.player.executor.PlayerExecutor
 import de.dytanic.cloudnet.ext.bridge.player.executor.ServerSelectorType
 import org.bukkit.entity.Player
 
-class CloudNetUtils {
+open class CloudNetUtils {
 
     companion object {
 

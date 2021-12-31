@@ -7,7 +7,7 @@ import com.mongodb.client.MongoCollection
 import com.mongodb.client.MongoDatabase
 import org.bson.Document
 
-class MongoManager(database: String) {
+open class MongoManager(database: String) {
 
     var mongoClient: MongoClient = MongoClient(MongoClientURI("${System.getenv("MONGO")}$database?retryWrites=true&w=majority"))
     var database: MongoDatabase = mongoClient.getDatabase(database)

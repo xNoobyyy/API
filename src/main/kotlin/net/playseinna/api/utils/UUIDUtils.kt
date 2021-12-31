@@ -8,7 +8,7 @@ import java.net.HttpURLConnection
 import java.net.URL
 import java.util.*
 
-class UUIDUtils {
+open class UUIDUtils {
 
     companion object {
 

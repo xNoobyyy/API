@@ -5,7 +5,7 @@ import org.bukkit.enchantments.Enchantment
 import org.bukkit.inventory.ItemFlag
 import org.bukkit.inventory.ItemStack
 
-class ItemBuilder {
+open class ItemBuilder {
 
     private lateinit var material: Material
     private lateinit var displayName: String

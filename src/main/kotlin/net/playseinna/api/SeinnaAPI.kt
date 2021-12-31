@@ -4,7 +4,7 @@ import net.playseinna.api.inventory.InventoryEventManager
 import net.playseinna.api.mongo.MongoManager
 import org.bukkit.plugin.java.JavaPlugin
 
-class SeinnaAPI : JavaPlugin() {
+open class SeinnaAPI : JavaPlugin() {
 
     override fun onLoad() { }
     override fun onEnable() { }

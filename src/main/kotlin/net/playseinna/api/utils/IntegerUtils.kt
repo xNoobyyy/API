@@ -4,7 +4,7 @@ import java.text.DecimalFormat
 import kotlin.math.log
 import kotlin.math.pow
 
-class IntegerUtils {
+open class IntegerUtils {
 
     companion object {
 

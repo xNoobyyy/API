@@ -2,7 +2,7 @@ package net.playseinna.api.inventory
 
 import org.bukkit.inventory.Inventory
 
-class InventoryEventManager {
+open class InventoryEventManager {
 
     val adapters = ArrayList<InventoryEventAdapter>()
 

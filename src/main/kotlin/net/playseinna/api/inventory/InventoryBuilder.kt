@@ -5,7 +5,7 @@ import org.bukkit.ChatColor
 import org.bukkit.inventory.Inventory
 import org.bukkit.inventory.ItemStack
 
-class InventoryBuilder(val size: Int, val title: String) {
+open class InventoryBuilder(val size: Int, val title: String) {
 
     val content = ArrayList<ItemStack?>()
     var filler: ItemStack? = null

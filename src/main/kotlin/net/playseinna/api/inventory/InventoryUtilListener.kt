@@ -8,7 +8,7 @@ import org.bukkit.event.inventory.InventoryCloseEvent
 import org.bukkit.event.inventory.InventoryDragEvent
 import org.bukkit.event.inventory.InventoryOpenEvent
 
-class InventoryUtilListener : Listener {
+open class InventoryUtilListener : Listener {
 
     @EventHandler
     fun onInventoryOpen(e: InventoryOpenEvent) {

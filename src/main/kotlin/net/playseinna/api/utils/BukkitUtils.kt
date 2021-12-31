@@ -3,7 +3,7 @@ package net.playseinna.api.utils
 import org.bukkit.Bukkit
 import org.bukkit.entity.Player
 
-class BukkitUtils {
+open class BukkitUtils {
 
     companion object {
         fun getOnlinePlayers(): ArrayList<Player> {

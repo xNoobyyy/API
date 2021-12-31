@@ -3,7 +3,7 @@ package net.playseinna.api.utils
 import com.google.common.base.Strings
 import org.bukkit.ChatColor
 
-class StringUtils {
+open class StringUtils {
 
     companion object {
 

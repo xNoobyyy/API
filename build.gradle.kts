@@ -32,7 +32,6 @@ dependencies {
     implementation("de.dytanic.cloudnet:cloudnet-npcs:3.4.1-RELEASE")
     implementation("org.mongodb:mongo-java-driver:3.12.10")
     implementation("commons-io:commons-io:2.11.0")
-    implementation("com.github.juliarn:npc-lib:development-SNAPSHOT")
 }
 
 tasks.test {
