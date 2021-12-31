@@ -36,6 +36,18 @@ dependencies {
     implementation("commons-io:commons-io:2.11.0")
 }
 
+publishing {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "com.github.SeinnaNetwork"
+            artifactId = "SeinnaAPI"
+            version = "master-SNAPSHOT"
+
+            from(components["java"])
+        }
+    }
+}
+
 tasks.test {
     useJUnitPlatform()
 }
