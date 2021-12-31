@@ -33,7 +33,6 @@ dependencies {
     implementation("org.mongodb:mongo-java-driver:3.12.10")
     implementation("commons-io:commons-io:2.11.0")
     implementation("com.github.juliarn:npc-lib:development-SNAPSHOT")
-    implementation("commons-io:commons-io:2.11.0")
 }
 
 tasks.test {
