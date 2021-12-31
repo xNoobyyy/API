@@ -19,8 +19,7 @@ class IntegerUtils {
             if (number.toString().contains("-") || number.toString() == "0") { return "0" }
             val n = log(number.toDouble(), 1000.0).toInt()
             val m = number / 1000.0.pow(n)
-            var unit = "";
-            unit = if (n < units.count()) {
+            val unit: String = if (n < units.count()) {
                 units[n]!!
             } else {
                 val unitInt = n - units.count()

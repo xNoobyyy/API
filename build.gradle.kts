@@ -22,6 +22,7 @@ repositories {
 }
 
 dependencies {
+    implementation(kotlin("stdlib-jdk8"))
     testImplementation(kotlin("test"))
     compileOnly("org.spigotmc:spigot-api:1.18.1-R0.1-SNAPSHOT")
     implementation("de.dytanic.cloudnet:cloudnet-driver:3.4.1-RELEASE")
@@ -34,7 +35,6 @@ dependencies {
     implementation("commons-io:commons-io:2.11.0")
     implementation("com.github.juliarn:npc-lib:development-SNAPSHOT")
     implementation("commons-io:commons-io:2.11.0")
-    implementation(kotlin("stdlib-jdk8"))
 }
 
 tasks.test {
@@ -50,7 +50,7 @@ application {
 }
 
 tasks.named<ShadowJar>("shadowJar") {
-    archiveBaseName.set("FarmingSimulator-$version")
+    archiveBaseName.set("FarmingSimulator")
     archiveClassifier.set("")
     archiveVersion.set("")
 }
