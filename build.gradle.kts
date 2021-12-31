@@ -8,8 +8,8 @@ plugins {
     id("maven-publish")
 }
 
-group = "net.playseinna.api"
-version = "0.1"
+group = "com.github.SeinnaNetwork"
+version = "master-SNAPSHOT"
 
 repositories {
     mavenCentral()
