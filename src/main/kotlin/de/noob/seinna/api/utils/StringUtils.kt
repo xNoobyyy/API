@@ -1,6 +1,6 @@
 package de.noob.seinna.api.utils
 
-import org.apache.commons.lang3.StringUtils
+import com.google.common.base.Strings
 import org.bukkit.ChatColor
 
 class StringUtils {
@@ -72,8 +72,8 @@ class StringUtils {
         fun getProgressBar(current: Int, max: Int, totalBars: Int, symbol: Char, completedColor: ChatColor, notCompletedColor: ChatColor): String? {
             val percent = current.toFloat() / max
             val progressBars = (totalBars * percent).toInt()
-            return (StringUtils.repeat("" + completedColor + symbol, progressBars)
-                    + StringUtils.repeat("" + notCompletedColor + symbol, totalBars - progressBars))
+            return (Strings.repeat("" + completedColor + symbol, progressBars)
+                    + Strings.repeat("" + notCompletedColor + symbol, totalBars - progressBars))
         }
 
     }
