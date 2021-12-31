@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.github.SeinnaNetwork</groupId>
+  <artifactId>SeinnaAPI</artifactId>
+  <versioning>
+    <latest>master-SNAPSHOT</latest>
+    <versions>
+      <version>master-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20211231155559</lastUpdated>
+  </versioning>
+</metadata>

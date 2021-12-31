@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.github.SeinnaNetwork</groupId>
+  <artifactId>SeinnaAPI</artifactId>
+  <version>master-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <localCopy>true</localCopy>
+    </snapshot>
+    <lastUpdated>20211231155559</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>master-SNAPSHOT</value>
+        <updated>20211231155559</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
