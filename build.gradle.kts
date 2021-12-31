@@ -42,8 +42,6 @@ publishing {
             groupId = "com.github.SeinnaNetwork"
             artifactId = "SeinnaAPI"
             version = "master-SNAPSHOT"
-
-            from(components["java"])
         }
     }
 }
