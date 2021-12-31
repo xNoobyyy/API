@@ -9,8 +9,8 @@ plugins {
     application
 }
 
-group = "de.noob.seinna.api"
-version = "0.1-Alpha"
+group = "com.github.SeinnaNetwork"
+version = "master-SNAPSHOT"
 
 repositories {
     mavenLocal()
@@ -37,9 +37,9 @@ dependencies {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            groupId="de.noob.seinna.api"
-            artifactId="API"
-            version="0.1-Alpha"
+            groupId="com.github.SeinnaNetwork"
+            artifactId="SeinnaAPI"
+            version="master-SNAPSHOT"
 
             from(components["java"])
         }
