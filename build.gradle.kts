@@ -5,7 +5,6 @@ plugins {
     kotlin("jvm") version "1.6.10"
     id("com.github.johnrengelman.shadow") version "7.1.0"
     id("java")
-    id("maven-publish")
     application
 }
 
@@ -35,18 +34,6 @@ dependencies {
     implementation("com.github.juliarn:npc-lib:development-SNAPSHOT")
     implementation("commons-io:commons-io:2.11.0")
     implementation(kotlin("stdlib-jdk8"))
-}
-
-publishing {
-    publications {
-        create<MavenPublication>("maven") {
-            groupId="com.github.SeinnaNetwork"
-            artifactId="SeinnaAPI"
-            version="master-SNAPSHOT"
-
-            from(components["java"])
-        }
-    }
 }
 
 tasks.test {
